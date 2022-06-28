@@ -1,1 +1,7 @@
 read.me.txt
+
+Main Repository
+
+All temp file is saved here.
+
+To save my idea
