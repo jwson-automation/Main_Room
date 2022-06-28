@@ -1,8 +1,11 @@
+from cgitb import html
+from bs4 import BeautifulSoup
+import bs4
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.support.select import Select
-import base64
+import soupsieve
 
 driver = webdriver.Chrome("./chromedriver")
 
@@ -13,7 +16,6 @@ driver.implicitly_wait(1000)
 
 #빵 갯수를 입력해주세요.
 num_of_ppang = 2
-
 
 #아이디와 비번을 입력해주세요.
 id = "ID"
