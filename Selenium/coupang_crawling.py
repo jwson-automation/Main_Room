@@ -11,7 +11,8 @@ options = webdriver.ChromeOptions()
 
 url = 'https://www.coupang.com/'
 
-driver = webdriver.Chrome("./chromedriver", chrome_options=options)
+driver = webdriver.Chrome("./chromedriver.exe")
+# driver = webdriver.Chrome("./chromedriver", chrome_options=options)
 
 #Debuging mode
 driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
